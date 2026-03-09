@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Downloads | Kuma Uptime Manager</title>
+    <meta name="description" content="Download Kuma Uptime Manager for macOS." />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">Kuma Uptime Manager</div>
+        <nav>
+          <a href="./index.html">Home</a>
+          <a class="active" href="./downloads.html">Downloads</a>
+          <a href="./terms.html">Terms</a>
+          <a href="./privacy.html">Privacy</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="container hero">
+        <h1>Downloads</h1>
+        <p>Install the latest build for macOS and review release information.</p>
+      </section>
+
+      <section class="container card">
+        <span class="pill">Latest Release</span>
+        <h2 style="margin-top: 10px">Kuma Uptime Manager v1.0.0</h2>
+        <p class="small">Minimum OS: macOS 14.6</p>
+
+        <div class="download-list">
+          <div class="download-item">
+            <strong>Apple Silicon (arm64)</strong>
+            <p class="small">Recommended for M-series Macs.</p>
+            <div class="cta-row">
+              <a class="btn btn-primary" href="#" aria-label="Download Apple Silicon build">Download .zip</a>
+            </div>
+          </div>
+
+          <div class="download-item">
+            <strong>Intel (x86_64)</strong>
+            <p class="small">For Intel-based Macs.</p>
+            <div class="cta-row">
+              <a class="btn" href="#" aria-label="Download Intel build">Download .zip</a>
+            </div>
+          </div>
+        </div>
+
+        <p class="small" style="margin-top: 16px">
+          Replace the placeholder download links with your GitHub Release asset URLs.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; <span id="year"></span> Kuma Uptime Manager</p>
+      </div>
+    </footer>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
